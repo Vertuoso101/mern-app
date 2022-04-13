@@ -1,0 +1,24 @@
+{
+  "name": "mern-app",
+  "version": "1.0.0",
+  "description": "a mern app rewritten in typescript",
+  "main": "server.js",
+  "author": "zaid BARHOUN",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.21",
+    "nodemon": "^2.0.15",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.2"
+  },
+  "scripts": {
+    "start": "ts-node-dev src/server.ts"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "concurrently": "^7.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.7"
+  }
+}
